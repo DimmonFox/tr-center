@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="table.css">
+  <title>Document</title>
+  <style>
+    table, tr, th, td {
+      border: 3px solid red;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<thead>
+  <tbody>
+  <h1>table</h1>
+  <table>
+    <tr>
+      <th>№</th>
+      <th>Name</th>
+      <th>Points</th>
+      <th>Teams</th>
+    </tr>
+    <tr>
+      <th>1</th>
+      <th>John</th>
+      <th>20.5</th>
+      <th>Real</th>
+    </tr>
+    <tr>
+      <th>2</th>
+      <th>Bill</th>
+      <th>30.2</th>
+      <th>Barselona</th>
+    </tr>
+    <tr>
+      <th>3</th>
+      <th>Liz</th>
+      <th>15.3</th>
+      <th>Chelsy</th>
+    </tr>
+    <tr>
+      <th>4</th>
+      <th>Jane</th>
+      <th>62.3</th>
+      <th>Arsenal</th>
+    </tr>
+    <tr>
+      <th>5</th>
+      <th>Richard</th>
+      <th>40.5</th>
+      <th>Milan</th>
+    </tr>
+    <tr>
+      <th>6</th>
+      <th>George</th>
+      <th>51.3</th>
+      <th>Roma</th>
+    </tr>
+    <tr>
+      <th>7</th>
+      <th>Jack</th>
+      <th>26.2</th>
+      <th>Bayern</th>
+    </tr>
+      <th>8</th>
+      <th>Lan</th>
+      <th>36.6</th>
+      <th>Shalke 04</th>
+    </tr>
+    <tr>
+      <th>9</th>
+      <th>Tom</th>
+      <th>17.2</th>
+      <th>Monaco</th>
+    </tr>
+    <tr>
+      <th>10</th>
+      <th>Michael</th>
+      <th>64.2</th>
+      <th>Bordo</th>
+    </tr>
+    <tr>
+      <div class="st12">
+      <th>Contacts</th>
+      <th>Email</th>
+      </div>
+    </tr>
+  </table>
+  </tbody>
+</thead>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+css
+th {
+  color: chartreuse;
+  background: scroll;
+  background-color: blue;
+}
