@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+}
+:root{
+  font-size: 20px;
+  --photo-size: 250px
+
+}
+body{
+  background-color: aliceblue;
+}
+span{
+  display: inline-block;
+}
+footer{
+  background-color: black;
+  min-width: calc(var(--photo-size)*1.8);
+  min-height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container{
+  margin: 10px auto;
+  max-width: calc(var(--photo-size)*1.8);
+  max-height: calc(var(--photo-size)*2.5);
+  outline: 5px solid darkblue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  width: calc(var(--photo-size)*1.8);
+  min-height: var(--photo-size);
+ /* background-color: cadetblue; */
+  background-image: url("../assets/bg-image-small.webp");
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.img-container{
+  width: var(--photo-size);
+  height: var(--photo-size);
+  margin-top: -130px;
+}
+.user-photo{
+  width: inherit;
+  height: inherit;
+  border: 5px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+ /* object-position: 50% 5%;*/
+  object-position: top;
+}
+.info{
+  text-align: center;
+}
